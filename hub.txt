@@ -1,5 +1,6 @@
-hub DrhMethylationHub
-shortLabel Drh Methylation
-longLabel Methylation data for drh
-genomesFile genomes.txt
+hub DRHHub
+shortLabel DRH Methylation
+longLabel Methylation data for DRH genome
+genomesFile https://raw.githubusercontent.com/Garfieldisthebest/drh/main/genomes.txt
 email wzhao@lji.org
+
