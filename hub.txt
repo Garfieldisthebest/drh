@@ -1,6 +1,5 @@
-hub DRHHub
-shortLabel DRH Methylation
-longLabel Methylation data for DRH genome
+hub MM39MethylationHub
+shortLabel Mouse Methylation
+longLabel Methylation data for mouse genome (mm39)
 genomesFile https://raw.githubusercontent.com/Garfieldisthebest/drh/main/genomes.txt
 email wzhao@lji.org
-
