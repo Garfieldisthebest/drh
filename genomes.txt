@@ -1,2 +1,4 @@
-genome NC_001416.1
-trackDb NC_001416.1/trackDb.txt
+genome mm39
+trackDb https://raw.githubusercontent.com/Garfieldisthebest/drh/main/trackDb.txt
+twoBitPath https://raw.githubusercontent.com/Garfieldisthebest/drh/main/mm39.2bit
+organism Mouse
