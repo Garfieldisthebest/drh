@@ -1,0 +1,5 @@
+hub DrhMethylationHub
+shortLabel Drh Methylation
+longLabel Methylation data for drh
+genomesFile genomes.txt
+email wzhao@lji.org
