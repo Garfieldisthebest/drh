@@ -11,6 +11,7 @@ track methylation_negative
 bigDataUrl https://raw.githubusercontent.com/Garfieldisthebest/drh/main/methylation_negative.bw
 shortLabel Methylation -
 longLabel Negative strand methylation
+type bigWig
 color 0,0,255
 visibility full
 viewLimits 0:1
