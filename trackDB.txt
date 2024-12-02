@@ -1,5 +1,5 @@
 track methylation_positive
-bigDataUrl https://raw.githubusercontent.com/Garfieldisthebest/drh/main/methylation_positive.bw
+bigDataUrl https://raw.githubusercontent.com/Garfieldisthebest/drh/main/drh_positive.bw
 shortLabel Methylation +
 longLabel Positive strand methylation
 type bigWig
@@ -8,7 +8,7 @@ visibility full
 viewLimits 0:1
 
 track methylation_negative
-bigDataUrl https://raw.githubusercontent.com/Garfieldisthebest/drh/main/methylation_negative.bw
+bigDataUrl https://raw.githubusercontent.com/Garfieldisthebest/drh/main/drh_negative.bw
 shortLabel Methylation -
 longLabel Negative strand methylation
 type bigWig
