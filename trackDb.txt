@@ -1,34 +1,34 @@
-track drh_methylation_positive
+track drh_positive_strand
 bigDataUrl https://raw.githubusercontent.com/Garfieldisthebest/drh/main/drh_positive.bw
-shortLabel drh Methylation +
-longLabel Positive strand methylation for DRH
+shortLabel DRH +
+longLabel DRH Positive Strand Methylation
 type bigWig
 color 255,0,0
 visibility full
 viewLimits 0:1
 
-track drh_methylation_negative
+track drh_negative_strand
 bigDataUrl https://raw.githubusercontent.com/Garfieldisthebest/drh/main/drh_negative.bw
-shortLabel drh Methylation -
-longLabel Negative strand methylation for DRH
+shortLabel DRH -
+longLabel DRH Negative Strand Methylation
 type bigWig
 color 0,0,255
 visibility full
 viewLimits 0:1
 
-track dam_methylation_positive
+track dam_positive_strand
 bigDataUrl https://raw.githubusercontent.com/Garfieldisthebest/drh/main/dam_positive.bw
-shortLabel dam Methylation +
-longLabel Positive strand methylation for DAM
+shortLabel DAM +
+longLabel DAM Positive Strand Methylation
 type bigWig
 color 255,0,0
 visibility full
 viewLimits 0:1
 
-track dam_methylation_negative
+track dam_negative_strand
 bigDataUrl https://raw.githubusercontent.com/Garfieldisthebest/drh/main/dam_negative.bw
-shortLabel dam Methylation -
-longLabel Negative strand methylation for DAM
+shortLabel DAM -
+longLabel DAM Negative Strand Methylation
 type bigWig
 color 0,0,255
 visibility full
