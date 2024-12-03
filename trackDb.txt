@@ -33,3 +33,13 @@ type bigWig
 color 0,0,255
 visibility full
 viewLimits 0:1
+
+track R-Chip
+bigDataUrl https://ucscgenome.s3.us-east-2.amazonaws.com/RH_293.bigwig
+shortLabel R-Chip
+longLabel R-Chip Methylation
+type bigWig
+color 0,0,255
+visibility full
+viewLimits 0:6600
+
