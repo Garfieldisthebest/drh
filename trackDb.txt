@@ -1,4 +1,4 @@
-track methylation_positive
+track drh_methylation_positive
 bigDataUrl https://raw.githubusercontent.com/Garfieldisthebest/drh/main/drh_positive.bw
 shortLabel drh Methylation +
 longLabel Positive strand methylation
@@ -7,7 +7,7 @@ color 255,0,0
 visibility full
 viewLimits 0:1
 
-track methylation_negative
+track drh_methylation_negative
 bigDataUrl https://raw.githubusercontent.com/Garfieldisthebest/drh/main/drh_negative.bw
 shortLabel drh Methylation -
 longLabel Negative strand methylation
@@ -16,7 +16,7 @@ color 0,0,255
 visibility full
 viewLimits 0:1
 
-track methylation_positive
+track dam_methylation_positive
 bigDataUrl https://raw.githubusercontent.com/Garfieldisthebest/drh/main/dam_positive.bw
 shortLabel dam Methylation +
 longLabel Positive strand methylation
@@ -25,7 +25,7 @@ color 255,0,0
 visibility full
 viewLimits 0:1
 
-track methylation_positive
+track dam_methylation_negative
 bigDataUrl https://raw.githubusercontent.com/Garfieldisthebest/drh/main/dam_negative.bw
 shortLabel dam Methylation +
 longLabel Negative strand methylation
