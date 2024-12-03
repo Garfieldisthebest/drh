@@ -41,5 +41,6 @@ longLabel R-Chip Methylation
 type bigWig
 color 0,0,255
 visibility full
-viewLimits 0:6600
+autoScale on
+
 
