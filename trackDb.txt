@@ -15,3 +15,21 @@ type bigWig
 color 0,0,255
 visibility full
 viewLimits 0:1
+
+track methylation_positive
+bigDataUrl https://raw.githubusercontent.com/Garfieldisthebest/drh/main/dam_positive.bw
+shortLabel dam Methylation +
+longLabel Positive strand methylation
+type bigWig
+color 255,0,0
+visibility full
+viewLimits 0:1
+
+track methylation_positive
+bigDataUrl https://raw.githubusercontent.com/Garfieldisthebest/drh/main/dam_negative.bw
+shortLabel dam Methylation +
+longLabel Negative strand methylation
+type bigWig
+color 255,0,0
+visibility full
+viewLimits 0:1
