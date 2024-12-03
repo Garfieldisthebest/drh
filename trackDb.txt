@@ -27,9 +27,9 @@ viewLimits 0:1
 
 track dam_methylation_negative
 bigDataUrl https://raw.githubusercontent.com/Garfieldisthebest/drh/main/dam_negative.bw
-shortLabel dam Methylation +
+shortLabel dam Methylation -
 longLabel Negative strand methylation
 type bigWig
-color 255,0,0
+color 0,0,255
 visibility full
 viewLimits 0:1
