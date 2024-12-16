@@ -1,5 +1,5 @@
-hub MM39MethylationHub
-shortLabel Mouse Methylation
-longLabel Methylation data for mouse genome (mm39)
+hub HumanMethylationHub
+shortLabel Human Methylation
+longLabel Methylation data for human genome (hg38)
 genomesFile https://raw.githubusercontent.com/Garfieldisthebest/drh/main/genomes.txt
 email wzhao@lji.org
