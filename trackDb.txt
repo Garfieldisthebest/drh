@@ -1,5 +1,5 @@
 track drh_positive_strand
-bigDataUrl https://raw.githubusercontent.com/Garfieldisthebest/drh/main/drh_positive.bw
+bigDataUrl https://ucscgenome.s3.us-east-2.amazonaws.com/drh_positive_meth.bw
 shortLabel DRH +
 longLabel DRH Positive Strand Methylation
 type bigWig
@@ -8,7 +8,7 @@ visibility full
 viewLimits 0:1
 
 track drh_negative_strand
-bigDataUrl https://raw.githubusercontent.com/Garfieldisthebest/drh/main/drh_negative.bw
+bigDataUrl https://ucscgenome.s3.us-east-2.amazonaws.com/drh_negative_meth.bw
 shortLabel DRH -
 longLabel DRH Negative Strand Methylation
 type bigWig
@@ -17,7 +17,7 @@ visibility full
 viewLimits 0:1
 
 track dam_positive_strand
-bigDataUrl https://raw.githubusercontent.com/Garfieldisthebest/drh/main/dam_positive.bw
+bigDataUrl https://ucscgenome.s3.us-east-2.amazonaws.com/dam_positive_meth.bw
 shortLabel DAM +
 longLabel DAM Positive Strand Methylation
 type bigWig
@@ -26,7 +26,7 @@ visibility full
 viewLimits 0:1
 
 track dam_negative_strand
-bigDataUrl https://raw.githubusercontent.com/Garfieldisthebest/drh/main/dam_negative.bw
+bigDataUrl https://ucscgenome.s3.us-east-2.amazonaws.com/dam_negative_meth.bw
 shortLabel DAM -
 longLabel DAM Negative Strand Methylation
 type bigWig
