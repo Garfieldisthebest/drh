@@ -1,5 +1,5 @@
 track drh_positive_strand
-bigDataUrl https://ucscgenome.s3.us-east-2.amazonaws.com/drh_positive_meth.bw
+bigDataUrl https://ucscgenome.s3.us-east-2.amazonaws.com/drh_positive_strand.bw
 shortLabel DRH +
 longLabel DRH Positive Strand Methylation
 type bigWig
@@ -8,7 +8,7 @@ visibility full
 viewLimits 0:1
 
 track drh_negative_strand
-bigDataUrl https://ucscgenome.s3.us-east-2.amazonaws.com/drh_negative_meth.bw
+bigDataUrl https://ucscgenome.s3.us-east-2.amazonaws.com/drh_negative_strand.bw
 shortLabel DRH -
 longLabel DRH Negative Strand Methylation
 type bigWig
