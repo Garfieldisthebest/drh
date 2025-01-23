@@ -40,6 +40,8 @@ shortLabel R-Chip_1
 longLabel R-Chip Methylation
 type bigWig
 color 0,0,255
+visibility full
+autoScale on
 
 track R-Chip_2
 bigDataUrl https://ucscgenome.s3.us-east-2.amazonaws.com/MN_293ctrl.bigwig
@@ -47,9 +49,10 @@ shortLabel R-Chip_2
 longLabel R-Chip_2 Methylation
 type bigWig
 color 0,0,255
-
-
 visibility full
 autoScale on
+
+
+
 
 
