@@ -17,7 +17,7 @@ visibility full
 viewLimits 0:1
 
 track dam_positive_strand
-bigDataUrl https://ucscgenome.s3.us-east-2.amazonaws.com/dam_positive_meth.bw
+bigDataUrl https://ucscgenome.s3.us-east-2.amazonaws.com/dam_positive_strand.bw
 shortLabel DAM +
 longLabel DAM Positive Strand Methylation
 type bigWig
@@ -26,7 +26,7 @@ visibility full
 viewLimits 0:1
 
 track dam_negative_strand
-bigDataUrl https://ucscgenome.s3.us-east-2.amazonaws.com/dam_negative_meth.bw
+bigDataUrl https://ucscgenome.s3.us-east-2.amazonaws.com/dam_negative_strand.bw 
 shortLabel DAM -
 longLabel DAM Negative Strand Methylation
 type bigWig
@@ -34,12 +34,21 @@ color 0,0,255
 visibility full
 viewLimits 0:1
 
-track R-Chip
+track R-Chip_1
 bigDataUrl https://ucscgenome.s3.us-east-2.amazonaws.com/RH_293.bigwig
-shortLabel R-Chip
+shortLabel R-Chip_1
 longLabel R-Chip Methylation
 type bigWig
 color 0,0,255
+
+track R-Chip_2
+bigDataUrl https://ucscgenome.s3.us-east-2.amazonaws.com/MN_293ctrl.bigwig
+shortLabel R-Chip_2
+longLabel R-Chip_2 Methylation
+type bigWig
+color 0,0,255
+
+
 visibility full
 autoScale on
 
