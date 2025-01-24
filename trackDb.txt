@@ -52,6 +52,14 @@ color 0,0,255
 visibility full
 autoScale on
 
+track GATC
+bigDataUrl https://ucscgenome.s3.us-east-2.amazonaws.com/A_in_GATC_positions.bw
+shortLabel GATC
+longLabel GATC
+type bigWig
+color 255,0,0
+visibility full
+viewLimits 0:1
 
 
 
