@@ -41,11 +41,11 @@ longLabel drh-dam Positive Strand Methylation
 type bigWig
 color 255,0,0
 visibility full
-autoScale off            # disables automatic rescaling so your chosen viewLimits apply
-viewLimits -1:1         # sets the Y-axis range to -1..1
-graphType bar           # displays signal as a bar graph (vs. a line)
-yLineOnOff on           # draws a horizontal reference line
-yLineMark 0             # places that reference line at zero
+autoScale off
+viewLimits -1:1
+graphType bar
+yLineOnOff on
+yLineMark 0
 maxHeightPixels 128:64:32
 
 track drh-dam_negative_strand
@@ -55,11 +55,11 @@ longLabel drh-dam negative Strand Methylation
 type bigWig
 color 255,0,0
 visibility full
-autoScale off            # disables automatic rescaling so your chosen viewLimits apply
-viewLimits -1:1         # sets the Y-axis range to -1..1
-graphType bar           # displays signal as a bar graph (vs. a line)
-yLineOnOff on           # draws a horizontal reference line
-yLineMark 0             # places that reference line at zero
+autoScale off
+viewLimits -1:1
+graphType bar
+yLineOnOff on
+yLineMark 0
 maxHeightPixels 128:64:32
 
 track R-Chip_1
