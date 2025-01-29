@@ -34,6 +34,36 @@ color 0,0,255
 visibility full
 viewLimits 0:1
 
+track drh-dam_positive_strand
+bigDataUrl https://ucscgenome.s3.us-east-2.amazonaws.com/plus_diff.bw
+shortLabel drh-dam_pos
+longLabel drh-dam Positive Strand Methylation
+type bigWig
+color 255,0,0
+visibility full
+# Key parameters:
+autoScale off            # disables automatic rescaling so your chosen viewLimits apply
+viewLimits -1:1         # sets the Y-axis range to -1..1
+graphType bar           # displays signal as a bar graph (vs. a line)
+yLineOnOff on           # draws a horizontal reference line
+yLineMark 0             # places that reference line at zero
+maxHeightPixels 128:64:32
+
+track drh-dam_negative_strand
+bigDataUrl https://ucscgenome.s3.us-east-2.amazonaws.com/minus_diff.bw
+shortLabel drh-dam_neg
+longLabel drh-dam negative Strand Methylation
+type bigWig
+color 255,0,0
+visibility full
+# Key parameters:
+autoScale off            # disables automatic rescaling so your chosen viewLimits apply
+viewLimits -1:1         # sets the Y-axis range to -1..1
+graphType bar           # displays signal as a bar graph (vs. a line)
+yLineOnOff on           # draws a horizontal reference line
+yLineMark 0             # places that reference line at zero
+maxHeightPixels 128:64:32
+
 track R-Chip_1
 bigDataUrl https://ucscgenome.s3.us-east-2.amazonaws.com/RH_293.bigwig
 shortLabel R-Chip_1
