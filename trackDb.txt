@@ -41,7 +41,6 @@ longLabel drh-dam Positive Strand Methylation
 type bigWig
 color 255,0,0
 visibility full
-# Key parameters:
 autoScale off            # disables automatic rescaling so your chosen viewLimits apply
 viewLimits -1:1         # sets the Y-axis range to -1..1
 graphType bar           # displays signal as a bar graph (vs. a line)
@@ -56,7 +55,6 @@ longLabel drh-dam negative Strand Methylation
 type bigWig
 color 255,0,0
 visibility full
-# Key parameters:
 autoScale off            # disables automatic rescaling so your chosen viewLimits apply
 viewLimits -1:1         # sets the Y-axis range to -1..1
 graphType bar           # displays signal as a bar graph (vs. a line)
