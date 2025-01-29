@@ -5,6 +5,7 @@ longLabel DRH Positive Strand Methylation
 type bigWig
 color 255,0,0
 visibility full
+autoScale off
 viewLimits 0:1
 
 track drh_negative_strand
@@ -14,6 +15,7 @@ longLabel DRH Negative Strand Methylation
 type bigWig
 color 0,0,255
 visibility full
+autoScale off
 viewLimits 0:1
 
 track dam_positive_strand
@@ -23,6 +25,7 @@ longLabel DAM Positive Strand Methylation
 type bigWig
 color 255,0,0
 visibility full
+autoScale off
 viewLimits 0:1
 
 track dam_negative_strand
@@ -32,6 +35,7 @@ longLabel DAM Negative Strand Methylation
 type bigWig
 color 0,0,255
 visibility full
+autoScale off
 viewLimits 0:1
 
 track drh-dam_positive_strand
