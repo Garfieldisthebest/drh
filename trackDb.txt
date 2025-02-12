@@ -93,6 +93,42 @@ color 255,0,0
 visibility full
 viewLimits 0:1
 
+track drh_GATC_positive_strand
+bigDataUrl https://ucscgenome.s3.us-east-2.amazonaws.com/drh_GATC.plus.bw
+shortLabel DRH_GATC +
+longLabel DRH Positive Strand GATC Methylation
+type bigWig
+color 255,0,0
+visibility full
+autoScale off
+viewLimits 0:1
 
+track drh_GATC_negative_strand
+bigDataUrl https://ucscgenome.s3.us-east-2.amazonaws.com/drh_GATC.minus.bw
+shortLabel DRH_GATC -
+longLabel DRH Negative Strand GATC Methylation
+type bigWig
+color 255,0,0
+visibility full
+autoScale off
+viewLimits 0:1
 
+track dam_GATC_negative_strand
+bigDataUrl https://ucscgenome.s3.us-east-2.amazonaws.com/dam_GATC.minus.bw
+shortLabel DAM_GATC -
+longLabel DAM Negative Strand GATC Methylation
+type bigWig
+color 255,0,0
+visibility full
+autoScale off
+viewLimits 0:1
 
+track dam_GATC_positive_strand
+bigDataUrl https://ucscgenome.s3.us-east-2.amazonaws.com/dam_GATC.plus.bw
+shortLabel DAM_GATC +
+longLabel DAM Positive Strand GATC Methylation
+type bigWig
+color 255,0,0
+visibility full
+autoScale off
+viewLimits 0:1
