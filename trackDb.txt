@@ -132,3 +132,23 @@ color 255,0,0
 visibility full
 autoScale off
 viewLimits 0:1
+
+
+track drh-dam_z_positive_strand
+bigDataUrl https://ucscgenome.s3.us-east-2.amazonaws.com/drh-dam.GATC.plus.z_score.bw 
+shortLabel DRH-DAM +
+longLabel DRH-DAM Positive Strand Methylation
+type bigWig
+color 255,0,0
+visibility full
+autoScale on
+
+track drh-dam_z_negative_strand
+bigDataUrl https://ucscgenome.s3.us-east-2.amazonaws.com/drh-dam.GATC.minus.z_score.bw 
+shortLabel DRH -
+longLabel DRH Negative Strand Methylation
+type bigWig
+color 0,0,255
+visibility full
+autoScale on
+
