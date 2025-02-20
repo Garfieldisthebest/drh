@@ -3,8 +3,8 @@ bigDataUrl https://ucscgenome.s3.us-east-2.amazonaws.com/drh_positive_strand.bw
 shortLabel DRH +
 longLabel DRH Positive Strand Methylation
 type bigWig
-yLineOnOff=on 
-yLineMark=0
+yLineOnOff on
+yLineMark 0
 color 255,0,0
 visibility full
 autoScale off
@@ -15,8 +15,8 @@ bigDataUrl https://ucscgenome.s3.us-east-2.amazonaws.com/drh_negative_strand.bw
 shortLabel DRH -
 longLabel DRH Negative Strand Methylation
 type bigWig
-yLineOnOff=on 
-yLineMark=0
+yLineOnOff on
+yLineMark 0
 color 0,0,255
 visibility full
 autoScale off
@@ -27,20 +27,20 @@ bigDataUrl https://ucscgenome.s3.us-east-2.amazonaws.com/dam_positive_strand.bw
 shortLabel DAM +
 longLabel DAM Positive Strand Methylation
 type bigWig
-yLineOnOff=on 
-yLineMark=0
+yLineOnOff on
+yLineMark 0
 color 255,0,0
 visibility full
 autoScale off
 viewLimits 0:1
 
 track dam_negative_strand
-bigDataUrl https://ucscgenome.s3.us-east-2.amazonaws.com/dam_negative_strand.bw 
+bigDataUrl https://ucscgenome.s3.us-east-2.amazonaws.com/dam_negative_strand.bw
 shortLabel DAM -
 longLabel DAM Negative Strand Methylation
 type bigWig
-yLineOnOff=on 
-yLineMark=0
+yLineOnOff on
+yLineMark 0
 color 0,0,255
 visibility full
 autoScale off
@@ -141,26 +141,26 @@ visibility full
 autoScale off
 viewLimits 0:1
 
-
 track drh-dam_z_positive_strand
-bigDataUrl https://ucscgenome.s3.us-east-2.amazonaws.com/drh-dam.GATC.plus.z_score.bw 
+bigDataUrl https://ucscgenome.s3.us-east-2.amazonaws.com/drh-dam.GATC.plus.z_score.bw
 shortLabel DRH-DAM_z +
 longLabel DRH-DAM Positive Strand z score Methylation
 type bigWig
-yLineOnOff=on 
-yLineMark=0
+yLineOnOff on
+yLineMark 0
 color 255,0,0
 visibility full
-autoScale on
+viewLimits -3:3
+autoScale off
 
 track drh-dam_z_negative_strand
-bigDataUrl https://ucscgenome.s3.us-east-2.amazonaws.com/drh-dam.GATC.minus.z_score.bw 
+bigDataUrl https://ucscgenome.s3.us-east-2.amazonaws.com/drh-dam.GATC.minus.z_score.bw
 shortLabel DRH-DAM_z -
 longLabel DRH-DAM Negative Strand z score Methylation
 type bigWig
-yLineOnOff=on 
-yLineMark=0
+yLineOnOff on
+yLineMark 0
 color 255,0,0
 visibility full
-autoScale on
-
+viewLimits -3:3
+autoScale off
