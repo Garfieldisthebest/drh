@@ -148,7 +148,7 @@ bigDataUrl https://ucscgenome.s3.us-east-2.amazonaws.com/drh-dam.GATC.minus.z_sc
 shortLabel DRH-DAM_z -
 longLabel DRH-DAM Negative Strand z score Methylation
 type bigWig
-color 0,0,255
+color 255,0,0
 visibility full
 autoScale on
 
